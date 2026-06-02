@@ -9,7 +9,7 @@ In computer vision, a neural network must "see" a large enough portion of an ima
 
 This project mathematically and visually proves how modern CNN architectures manipulate tensor mathematics to maximize spatial awareness while minimizing parameter counts.
 
-## 🔬 The 3-Way Architectural Showdown
+## 🔬 The 3-Types Of Architecutres in this experiment
 Using **PyTorch** and a single image from the **CIFAR-10** dataset, this experiment isolates three distinct approaches to achieving a **7x7 Receptive Field** (reducing a 32x32 tensor to a 26x26 feature map).
 
 1. **The Brute Force Era (Single 7x7):** The historical baseline.
@@ -53,8 +53,8 @@ You can replicate this experiment and generate the heatmaps locally.
    git clone [https://github.com/Shivam-Sahay24/cnn-receptive-field-analysis.git](https://github.com/Shivam-Sahay24/cnn-receptive-field-analysis.git)
 2. Install the requirements:
    ```bash
-pip install torch torchvision matplotlib seaborn
+   pip install torch torchvision matplotlib seaborn
 
 3. Run the analysis script:
    ```bash
-python erf_experiment.py
+   python erf_experiment.py
